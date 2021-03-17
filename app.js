@@ -6,15 +6,7 @@ console.log(is_subscribed);
 if(userAge < 18 && is_subscribed !== true){
     console.log("The user is younger than 18 and is not subscribed");
 }
-else if(userAge > 18 && is_subscribed === true){
-    console.log("The user is older than 18 and is subscribed");
-}
-else if(userAge < 18 && is_subscribed === true){
-     console.log("The user is younger than 18 and is subscribed")   
-}
-else if (userAge > 18 && is_subscribed === true){
-    console.log("The user is 18 and older and is subscribed")
-} 
+
    
 
 var userAge = 29;
@@ -28,12 +20,7 @@ if(userAge < 18 && is_subscribed !== true){
 else if(userAge > 18 && is_subscribed === true){
     console.log("The user is older than 18 and is subscribed");
 }
-else if(userAge < 18 && is_subscribed === true){
-     console.log("The user is younger than 18 and is subscribed")   
-}
-else if (userAge > 18 && is_subscribed === true){
-    console.log("The user is 18 and older and is subscribed")
-} 
+
    
 
 var userAge = 15;
@@ -50,10 +37,7 @@ else if(userAge > 18 && is_subscribed === true){
 else if(userAge < 18 && is_subscribed === true){
      console.log("The user is younger than 18 and is subscribed")   
 }
-else if (userAge > 18 && is_subscribed === true){
-    console.log("The user is 18 and older and is subscribed")
-} 
-   
+
 
 var userAge = 29;
 var is_subscribed = true;
